@@ -1,0 +1,21 @@
+.free-form {
+    display: flex;
+    flex-direction: column;
+    width: 303px;
+    &__input {
+        margin-bottom: 15px;
+        height: 54px;
+        font-weight: 400;
+        font-size: 14px;
+        padding: 0px 20px;
+        border: none;
+        border-radius: 5px;
+        outline: none;
+        &_mb10 {
+            margin-bottom: 10px;
+        }
+    }
+    &_modal {
+        margin-top: 25px;
+    }
+}

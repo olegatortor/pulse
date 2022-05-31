@@ -1,0 +1,50 @@
+.carousel {
+    padding: 81px 0 ;
+    .prev, .next {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        border: none;
+        background: transparent;
+    }
+    .next {
+        right: 0px;
+    }
+    .tns-item {
+        img {
+            display: block;
+            margin: 0 auto;
+            width: 750px;
+        }
+    }
+    .tns-nav {
+        display: none;
+    }
+    .tns-outer {
+        button {
+            display: none;
+        }
+    }
+}
+// .carousel {
+//     min-height: 650px;
+//     padding: 81px 0 ;
+//     .prev, .next {
+//         position: absolute;
+//         top: 50%;
+//         transform: translateY(-50%);
+//         border: none;
+//         background: transparent;
+//     }
+//     .next {
+//         right: 0px;
+//     }
+//     .tns-item {
+//         img {
+//             display: block;
+//             margin: 0 auto;
+//             width: 750px;
+//             height: 500px;
+//         }
+//     }
+// }

@@ -1,0 +1,244 @@
+@media (max-width: 1200px) {
+
+}
+
+@media (max-width: 991px) {
+    .container {
+        max-width: 90%;
+    }
+    .promo {
+        background: url(../img/bg/main_bg.png) -420px center/cover no-repeat;
+        &__header {
+            font-size: 40px;
+        }
+        &__subheader {
+            font-size: 23px;
+            margin-top: 12px;
+        }
+        &__items {
+            width: 370px;
+        }
+    }
+    .benefits {
+        &__wrapper {
+            justify-content: space-around;
+        }
+        &__item {
+            &:last-child {
+                margin-top: 30px;
+            }
+        }
+    }
+    .carousel {
+        .tns-item {
+            img {
+                width: 600px;
+            }
+        }
+    }
+    .catalog {
+        &__content {
+            justify-content: center;
+            margin-top: 45px;
+        }
+        &-item {
+            margin: 15px 5px 0 5px;
+        }
+    }
+}
+
+@media (max-width: 767px) {
+    .header {
+        &__official {
+            display: none;
+        }
+    }
+    .promo {
+        &__icon {
+            margin-bottom: 10px;
+        }
+    }
+    .consultation {
+        min-height: 600px;
+        padding: 73px 0 65px 0;
+        &__wrapper {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        &__descr {
+            text-align: center;
+        }
+    }
+    .title {
+        &_left {
+            text-align: center;
+        }
+    }
+    .carousel {
+        .tns-item {
+            img {
+                width: 440px;
+            }
+        }
+        .prev, .next {
+            display: none;
+        }
+    }
+    .catalog {
+        &__tab {
+            width: 200px;
+            height: 40px;
+            font-size: 14px;
+            line-height: 38px;
+            &_active {
+                box-shadow: 3px 3px 10px $main-color;
+            }
+        }
+        &__content {
+            justify-content: center;
+            margin-top: 45px;
+        }
+        &-item {
+            margin: 15px 5px 0 5px;
+        }
+    }
+    .reviews {
+        .rewiew {
+            flex-direction: column;
+            align-items: center;
+            &__wrapper {
+                width: 500px;
+                margin-top: 20px;
+                margin-left: 0;
+            }
+            &__descr {
+                font-size: 14px;
+            }
+        }
+    }
+}
+
+@media (max-width: 575px) {
+    .header {
+        &__logo {
+            width: 180px;
+        }
+        &__phone {
+            font-size: 12px;
+        }
+        .btn {
+            width: 100px;
+            height: 20px;
+            font-size: 9px;
+        }
+    }
+    .promo {
+        min-height: 550px;
+        padding: 14px 0 40px 0;
+        &__wrapper {
+            margin-top: 60px;
+            align-items: center;
+        }
+        &__items {
+            width: 300px;
+        }
+        &__item {
+            font-size: 12px;
+        }
+        &__header {
+            font-size: 23px;
+        }
+        &__subheader {
+            font-size: 20px;
+            text-align: center;
+        }
+        &__text {
+            font-size: 15px;
+        }
+        .btn_main {
+            width: 250px;
+            height: 40px;
+            font-size: 15px;
+        }
+    }
+    .title {
+        font-size: 20px;
+        line-height: 23px;
+    }
+    .benefits {
+        padding: 40px 0;
+        &__wrapper {
+            margin-top: 35px;
+        }
+        &__item {
+            &:nth-child(2) {
+                margin-top: 30px;
+            }
+        }
+        &__subtitle {
+            margin-top: 10px;
+        }
+        &__descr {
+            margin-top: 10px;
+        }
+    }
+    .consultation {
+        min-height: 400px;
+        padding: 40px 0;
+        &__descr {
+            font-size: 18px;
+            line-height: 20px;
+        }
+        br {
+            display: none;
+        }
+    }
+    .free-form {
+        width: 250px;
+    }
+    
+    .carousel {
+        .tns-item {
+            img {
+                width: 290px;
+            }
+        }
+    }
+    .catalog {
+        padding-bottom: 81px;
+        &__tabs {
+            flex-direction: column;
+            margin-top: 35px;
+        }
+        &__tab {
+            margin-bottom: 10px;
+        }
+        &__content {
+            margin-top: 30px;
+        }
+    }
+    .reviews {
+        .rewiew {
+            &__wrapper {
+                width: 300px;
+            }
+            img {
+                width: 150px;
+            }
+        }
+    }
+    .footer {
+        &__info {
+            width: 100%;
+            min-height: 200px;
+            padding: 25px 40px 25px 40px;
+        }
+        &__phone {
+            margin: 20px 0;
+        }
+        iframe {
+            display: none;
+        }
+    }
+}

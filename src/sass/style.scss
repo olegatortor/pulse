@@ -1,0 +1,39 @@
+@import "libs/bootstrap-reboot.min.scss";
+@import "libs/font";
+@import url("https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/tiny-slider.css");
+@import "libs/animate.min";
+
+@import "base/mixins";
+@import "base/variables";
+@import "base/animation";
+
+* {
+    font-family: 'Museo Sans Cyrl', sans-serif;
+    ul {
+        padding: 0;
+    }
+    a {
+        text-decoration: none;
+    }
+}
+.container {
+    max-width: 950px;
+    margin: 0 auto;
+    position: relative;
+}
+
+@import "blocks/promo";
+@import "blocks/header";
+@import "blocks/buttons";
+@import "blocks/titles";
+@import "blocks/benefits";
+@import "blocks/consultation";
+@import "blocks/forms";
+@import "blocks/carousel";
+@import "blocks/catalog";
+@import "blocks/rewiews";
+@import "blocks/footer";
+@import "blocks/modal";
+@import "blocks/page-up";
+
+@import "base/media";
